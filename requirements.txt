@@ -53,7 +53,7 @@ idna==3.7
 incremental==22.10.0
 Jinja2==3.1.4
 joblib==1.4.2
-keras==3.3.3
+keras==2.11.0
 kombu==5.3.7
 libclang==18.1.1
 loguru==0.7.2
@@ -66,7 +66,7 @@ monkeylearn==3.6.0
 mysqlclient==2.2.4
 namex==0.0.8
 nltk==3.8.1
-numpy==1.26.4
+numpy==1.21.6  # Compatible with TensorFlow 2.11.0
 oauth2_provider==0.0
 opt-einsum==3.3.0
 optree==0.11.0
@@ -102,10 +102,10 @@ sortedcontainers==2.4.0
 soupsieve==2.5
 sqlparse==0.5.0
 tablib==3.5.0
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorflow==2.15.0
-tensorflow-intel==2.15.0
+tensorboard==2.11.0
+tensorboard-data-server==0.6.1
+tensorflow==2.11.0
+tensorflow-intel==2.11.0
 termcolor==2.4.0
 threadpoolctl==3.5.0
 tqdm==4.66.4
