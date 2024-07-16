@@ -78,6 +78,7 @@ pillow==10.4.0
 polyline==2.0.2
 prompt_toolkit==3.0.47
 protobuf==4.25.3
+python-3.9.7
 psycopg2==2.9.9
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
