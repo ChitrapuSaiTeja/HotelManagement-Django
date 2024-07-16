@@ -1,13 +1,13 @@
 {
   "builds":[{
-    "src":"broomk/wsgi.py",
+    "src":"hotel/wsgi.py",
     "use":"@vercel/python",
     "config":{"maxLambdaSize":"15mb","runtime":"python3.9"}
   }],
   "routes":[
     {
       "src":"/(.*)",
-      "dest":"broomk/wsgi.py"
+      "dest":"hotel/wsgi.py"
     }
   ]
 }
