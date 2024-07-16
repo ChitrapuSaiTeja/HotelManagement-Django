@@ -1,3 +1,4 @@
+
 absl-py==2.1.0
 amqp==5.2.0
 asgiref==3.8.1
@@ -66,7 +67,7 @@ monkeylearn==3.6.0
 mysqlclient==2.2.4
 namex==0.0.8
 nltk==3.8.1
-numpy==1.21.4
+numpy==1.21.2
 oauth2_provider==0.0
 opt-einsum==3.3.0
 optree==0.11.0
