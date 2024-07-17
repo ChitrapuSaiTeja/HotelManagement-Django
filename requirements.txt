@@ -104,6 +104,7 @@ sqlparse==0.5.0
 tablib==3.5.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
+twisted-iocpsupport; platform_system == 'Windows'
 
 termcolor==2.4.0
 threadpoolctl==3.5.0
