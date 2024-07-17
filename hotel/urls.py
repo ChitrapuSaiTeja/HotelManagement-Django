@@ -25,7 +25,6 @@ urlpatterns = [
     path('', views.homepage,name="homepage"),
     path('home', views.homepage,name="homepage"),
     # path('about', views.aboutpage,name="aboutpage"),
-    path('', views.index, name='index'),
     
     path('newv', views.newview,name="newview"),
 
