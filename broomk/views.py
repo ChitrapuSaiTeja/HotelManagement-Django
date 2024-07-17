@@ -184,7 +184,7 @@ def change_password(request):
 
 
 #staff login and signup page
-ef staff_log_sign_page(request):
+def staff_log_sign_page(request):
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
