@@ -184,21 +184,22 @@ def change_password(request):
 
 
 #staff login and signup page
-def staff_log_sign_page(request):
+ef staff_log_sign_page(request):
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
 
-        if user is not None:
-            if user.is_staff:
-                login(request, user)
-                return redirect('staff_dashboard')
-            else:
-                return HttpResponse("You are not authorized to access the staff area.")
+        user = authenticate(username=username,password=password)
+        
+        if user.is_staff:
+            login(request,user)
+            return redirect('staffpanel')
+        
         else:
-            return HttpResponse("Invalid login credentials.")
-    return render(request, 'staff_login.html')
+            messages.success(request,"Incorrect username or password")
+            return redirect('staffloginpage')
+    response = render(request,'staff/stafflogsign.html')
+    return HttpResponse(response)
 
 #staff panel page
 @login_required(login_url='/staff')
